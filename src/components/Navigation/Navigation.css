@@ -1,0 +1,11 @@
+.navigationLogoTitle{
+
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 26px;
+
+    background:  linear-gradient(90deg, rgba(236,24,103,0.9447129193474265) 16%, rgba(101,181,198,1) 50%, rgba(14,22,223,0.8886905103838411) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
