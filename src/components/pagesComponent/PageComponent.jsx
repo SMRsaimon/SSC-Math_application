@@ -5,7 +5,7 @@ import Navigation from  "../../components/Navigation/Navigation"
 import Footer from "../Footer/Footer";
 const PageComponent = ({Chapter}) => {
 
-    console.log(Chapter)
+    
   return (
     <>
      <Navigation />
@@ -13,7 +13,7 @@ const PageComponent = ({Chapter}) => {
         <div className="row d-flex justify-content-center">
 
             {
-          Chapter.map(x=> <PageImages title={x.title} img={x.img}  />)
+          Chapter?.map(x=> <PageImages title={x.title} img={x.img}  />)
 
             }
          

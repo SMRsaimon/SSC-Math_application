@@ -20,6 +20,10 @@ const BookStorage = {
       title: "bjhbf",
       img: Img,
     },
+    {
+      title: "bjhbf",
+      img: Img,
+    },
   ],
 };
 
