@@ -9,3 +9,32 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+.navbar-dark .navbar-nav .nav-link {
+   color: white !important;
+   font-size: 16px;
+   font-weight: 600;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1.3rem;
+    color: #ff0ac2 !important;
+    text-align: left;
+    font-family: 'Teko', sans-serif !important;
+    list-style: none;
+    background-color:  rgba(14,22,223,0.5);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: display .5 ease-in-out;
+    
+}
