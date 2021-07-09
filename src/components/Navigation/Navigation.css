@@ -1,11 +1,12 @@
 .navigationLogoTitle{
 
     font-family: 'Teko', sans-serif;
-    font-weight: 800;
-    letter-spacing: 1px;
     font-size: 26px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(
+45deg
+, #09009f, #00ff95 80%);
 
-    background:  linear-gradient(90deg, rgba(236,24,103,0.9447129193474265) 16%, rgba(101,181,198,1) 50%, rgba(14,22,223,0.8886905103838411) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -31,10 +32,23 @@
     text-align: left;
     font-family: 'Teko', sans-serif !important;
     list-style: none;
-    background-color:  rgba(14,22,223,0.5);
+    background: -webkit-linear-gradient(
+        245deg
+        , #09009f, #00ff95 60%);
+        
+          
+           
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
     transition: display .5 ease-in-out;
+    
+}
+
+.toggle-icon{
+
+   fill: #00ff95;
+    stroke-width:1;
+    font-size: 32px;
     
 }

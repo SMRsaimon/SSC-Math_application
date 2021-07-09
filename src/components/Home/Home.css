@@ -1,0 +1,9 @@
+.bg-home {
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+}
+
+.body-title {
+  color: white;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+}

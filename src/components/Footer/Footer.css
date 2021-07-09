@@ -1,0 +1,51 @@
+#footer {
+  background: #313552;
+  margin-bottom: 10px;
+}
+
+.social-heading {
+  color: grey;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.foooter-h4 {
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+
+  letter-spacing: 5px;
+}
+.footer-p {
+  font-size: 16px;
+  opacity: 0.7;
+  color: white;
+}
+
+.text-center {
+  padding-bottom: 20px;
+}
+
+#footer {
+  position: relative;
+}
+.sr-fluid {
+  width: 50% !important;
+}
+.sr-fluid a {
+  width: 98% !important ;
+}
+.para {
+  color: white;
+}
+.social-container {
+  width: 477px;
+}
+.brandName {
+  color: cornflowerblue;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
